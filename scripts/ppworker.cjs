@@ -127,7 +127,7 @@ const updateTauriConfig = (showName, version, id, tauriApi) => {
     const newTauriConfig = tauriConfig
         .replace('PakePlus', showName)
         .replace('0.0.1', version)
-        .replace('com.pakeplus.app', id)
+        .replace('com.pakeplus.web', id)
         .replace(
             '"targets": "all"',
             ascii
