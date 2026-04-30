@@ -104,7 +104,7 @@ const updateCargoToml = async (
     }
     // 更新 name, version, desc, debug, single
     let newCargoToml = cargoToml
-        .replace('PakePLus', name)
+        .replace('PakePlus', name)
         .replace('0.0.1', version)
         .replace('Project Desc', desc)
         .replace('"protocol-asset"', features)

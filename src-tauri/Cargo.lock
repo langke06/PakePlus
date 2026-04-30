@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "PakePLus"
+name = "PakePlus"
 version = "0.0.1"
 dependencies = [
  "encoding_rs",
